@@ -18,15 +18,12 @@ Rachel Haddad's Junior Web Developer Portfolio that meets all expections. Includ
 -HTML
 -CSS
 
-# Preview
-![Rachel's-Portfolio](./css/images/Screen Shot 2021-12-18 at 12.51.56 AM.png "ScreenShot")
-
 # Author
 
 **Rachel Haddad**
 
 # Link to Repository
 
--Here is the repo: []
+-Here is the repo: [https://github.com/buttercupsmom/hw-2.git]
 
--Here is the pages: []
+-Here is the pages: [https://buttercupsmom.github.io/hw-2/]
