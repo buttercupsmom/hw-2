@@ -1,0 +1,227 @@
+/* CUSTOM VARIABLES */
+:root {
+    --light:ghostwhite;
+    --bgc: #123622;
+    }
+    
+    /* GENERAL STYLES */
+    
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin:0;
+      }
+    
+      body {
+        background-color: var(--bgc);
+        color: var(--light);
+        flex-direction: column;
+        align-self: auto;
+        font-family: 'Didact Gothic', sans-serif;
+      }
+    
+    /* HEADER */
+      .et-hero-tabs, 
+      .et-slide {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        letter-spacing: 0.3rem;
+    
+      }
+    
+      h1 h2 h3 h4 { 
+        display: inline-block;
+        flex-wrap: wrap;
+        text-decoration-style: double;
+      }
+    
+      header{
+        border-color: black;
+        border-radius:60px ;
+        border-style: inherit;
+        color: var(--light);
+        margin-right: 40px;
+        margin-left: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 10px; 
+        font-size: 20px;
+      }
+    
+      div header nav {
+        color: var(--light);
+        display: flex;
+        flex-direction: row;
+        float: right;
+        font-style: bold;
+        font-size: 20px;
+        margin-right: 80px;
+        padding: 40px;
+      }
+    
+      header nav ul {
+        color: var(--light);
+        list-style-type:none;
+      }
+    
+      header nav ul li {
+        color: var(--light);
+        display: inline-block;
+        display: flex;
+        flex-direction: column;
+        margin-left: 25px;
+      }
+    
+     
+    
+    /* SERVICE SECTIONS */
+    div p .container {
+      border: 40px;
+      box-sizing: content-box;
+      display: block;
+      flex-direction: column;  
+      flex-wrap: wrap;
+      flex: 200px;
+      font-size: 16px;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 20px;
+      width: 20%;
+    }
+
+    .float-left img {
+      align-content: flex-end;
+      display: block;
+      max-height: 200px;
+    }
+    
+    h2 { 
+      align-items: center;
+      display: flex;
+      font-size: 26px;
+      letter-spacing: 0.3rem;
+    }
+    
+    .service {
+      color: var(--light);
+    }
+
+    
+    /* TART SECTION */
+    
+    h3 {
+      align-items: center;
+      font-size: 26px;
+      letter-spacing: 0.3rem;
+      margin-left: 20px;
+    }
+    
+    .tart {
+      color: var(--light);
+      flex: center;
+      margin-bottom: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 50px;
+      height: 300px;
+    }
+    
+    ul .tart {
+      border: 40px;
+      color: var(--light);
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      font-size: 16px;
+      height: 100%;
+      margin-left: 20px;
+      padding: 20px;
+      width: 20%;
+    }
+    
+    
+    
+    /* TEXT STYLES */
+    a {
+      color: var(--light);
+    }
+    
+    /* WEDGE SECTION */
+    h4 {  
+      display: flex;
+      justify-content: flex;
+      font-size: 26px;
+      letter-spacing: 0.3rem;
+    }
+    
+    .wedge {
+      color: var(--light);
+      display:flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 50px;
+      height: 300px;
+    }
+    
+    li ul .wedge {
+      border: 40px;
+      color: var(--light);
+      font-size: 16px;
+      height: 100%;
+      margin-right: 20px;
+      padding: 20px;
+      width: 20%;
+    }
+    
+    /* ZIPPER SECTION */
+    h5 {
+      display: flex;
+      font-size: 26px;
+      letter-spacing: 0.3rem;
+    }
+    
+    .zipper {
+      color: var(--light);
+      flex: center;
+      margin-bottom: 20px;
+      margin-left: 50px;
+      margin-right: 80px;
+      padding: 50px;
+      height: 300px;
+    }
+    
+    ul .zipper {
+      border: 40px;
+      color: var(--light);
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      flex: 200px;
+      font-size: 16px;
+      padding:50px;
+      list-style-type: circle;
+    }
+    
+    /* FOOTER */
+    footer {
+      padding: 30px;
+      text-align: center;
+    }
+
+    footer h2{
+      font-size: 26px;
+      letter-spacing: 5rem;
+      color: var(--light);
+    }
+    
+    /* MEDIA QUERY */
+    @media screen and (min-width: 745px) {
+    }
+    
+    @media screen and (min-width:995px){
+      
+    }
