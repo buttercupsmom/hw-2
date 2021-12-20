@@ -208,14 +208,15 @@
     
     /* FOOTER */
     footer {
+      display: flex;
+      flex-direction: row;
       padding: 30px;
       text-align: center;
     }
 
     footer h2{
-      font-size: 26px;
-      flex-direction: row;
-      letter-spacing: 5rem;
+      font-size: 18px;
+      letter-spacing: .6rem;
       color: var(--light);
     }
     
